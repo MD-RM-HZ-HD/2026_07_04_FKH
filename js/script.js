@@ -539,8 +539,8 @@ function renderPresentation() {
                         <div class="w-full">
                             <h3 class="text-sm md:text-base font-black text-[color:var(--accent-primary)] mb-2 text-right" dir="rtl">انفوجرافيك</h3>
                             <div class="flex flex-col items-center gap-4 bg-[color:var(--bg-main)] p-4 rounded-xl border border-[color:var(--border-color)]">
-                                <img src="${item.info}" class="max-w-full h-auto rounded-lg shadow-sm" onerror="this.style.display='none'">
-                                <a href="${item.info}" download class="px-4 py-2 bg-[color:var(--accent-green)] text-white text-xs font-bold rounded-lg shadow-sm hover:opacity-90 transition self-start">تحميل الصورة</a>
+                                <img src="${item.Info}" class="max-w-full h-auto rounded-lg shadow-sm" onerror="this.style.display='none'">
+                                <a href="${item.Info}" download class="px-4 py-2 bg-[color:var(--accent-green)] text-white text-xs font-bold rounded-lg shadow-sm hover:opacity-90 transition self-start">تحميل الصورة</a>
                             </div>
                         </div>
 
