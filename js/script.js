@@ -441,7 +441,7 @@ function renderText() {
             <div class="w-full">
                 <h3 class="text-sm md:text-base font-black text-[color:var(--accent-primary)] mb-2 text-right" dir="rtl"> الملف الصوتي</h3>
                 <div class="simple-audio-player shadow-sm" dir="ltr">
-                    <audio id="global-audio-1" src="audio/aud_1.mp3" preload="metadata"></audio>
+                    <audio id="global-audio-1" src="Audio/aud_1.mp3" preload="metadata"></audio>
                     <div class="player-row">
                         <button class="btn-play" onclick="window.toggleAudio('global-audio-1', this)">▶</button>
                         <span class="time-current" id="current-global-audio-1">0:00</span>
