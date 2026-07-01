@@ -146,7 +146,7 @@ const StateManager = {
 };
 
 let State = {
-    tab: 'mindmap', 
+    tab: 'text', 
     fontSize: parseInt(localStorage.getItem('fontSize')) || 20,
     activeSet: { mindmap: 1, text: 1, qa: 1, presentation: 1, tf: 1, cards: 1, mcq: 1, fill: 1, comp: 1 }, 
     cardsIdx: 0, cardsFlipped: false,
